@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Calculator</title>
+</head>
+<body>
+    
+    <div class="container mt-5 justify-content-center">
+        <div class="row justify-content-center">
+            <h1 class="display-4">Calculator</h1>
+        </div>
+        <div class="row justify-content-center input-group mx-auto mt-5" id="input-row">
+            <div class="input-group-prepend">
+                <span class="input-group-text"></span>
+            </div>
+            <input type="number" placeholder="0" class="form-control" disabled>
+            <div class="input-group-append">
+                <span class="input-group-text" id="basic-addon2"><button class="btn btn-light" id="clearBtn">C</button></span>
+              </div>
+        </div>
+        <div class="row justify-content-center">
+            <button id="7" class="btn btn-light numBtn">7</button>
+            <button id="8" class="btn btn-light numBtn">8</button>
+            <button id="9" class="btn btn-light numBtn">9</button>
+            <button id="X" class="btn btn-light opBtn">X</button>
+        </div>
+        <div class="row justify-content-center">
+            <button id="4" class="btn btn-light numBtn">4</button>
+            <button id="5" class="btn btn-light numBtn">5</button>
+            <button id="6" class="btn btn-light numBtn">6</button>
+            <button id="/" class="btn btn-light opBtn">/</button>
+        </div>
+        <div class="row justify-content-center">
+            <button id="1" class="btn btn-light numBtn">1</button>
+            <button id="2" class="btn btn-light numBtn">2</button>
+            <button id="3" class="btn btn-light numBtn">3</button>
+            <button id="add" class="btn btn-light opBtn">+</button>
+        </div>
+        <div class="row justify-content-center">
+            <button id="0" class="btn btn-light numBtn">0</button>
+            <button id="math" class="btn btn-light">=</button>
+            <button id="sub" class="btn btn-light opBtn">-</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+</body>
+</html>
